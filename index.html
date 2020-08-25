@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Byte Converter</title>
+  </head>
+  <body>
+    <h1 id="head">BYTE Converter</h1>
+    <section class="container">
+      <div class="inputBoxes">
+        <input
+          type="number"
+          id="leftBox"
+          name="leftBox"
+          placeholder="Input Here"
+        />
+      </div>
+      <div class="selects">
+        <select name="leftSelect" id="leftSelect">
+          <option value="gb">Giga Bytes</option>
+          <option value="mb">Mega Bytes</option>
+          <option value="kb">Kilo Bytes</option>
+          <option value="byte">Bytes</option>
+        </select>
+        <select name="rightSelect" id="rightSelect">
+          <option value="byte">Bytes</option>
+          <option value="kb">Kilo Bytes</option>
+          <option value="mb">Mega Bytes</option>
+          <option value="gb">Giga Bytes</option>
+        </select>
+      </div>
+      <div>
+        <input
+          type="text"
+          id="rightBox"
+          name="rightBox"
+          disabled
+          placeholder="Result"
+        />
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
